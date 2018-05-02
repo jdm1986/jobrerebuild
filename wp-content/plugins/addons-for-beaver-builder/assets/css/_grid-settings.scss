@@ -1,0 +1,64 @@
+$neat-grid: (
+        columns: 12,
+        gutter: 20px,
+        direction: ltr,
+);
+
+$labb-desktop-grid: (
+        columns: 12,
+        gutter: 20px,
+        media: 801px,
+);
+
+$labb-tablet-grid: (
+        columns: 6,
+        gutter: 20px,
+        media: 480px,
+);
+
+$labb-mobile-grid: (
+        columns: 2,
+        gutter: 20px,
+);
+
+
+$labb-gapless-grid: (
+        gutter: 0px,
+);
+
+$labb-gapless-desktop-grid: (
+        columns: 12,
+        gutter: 0px,
+        media: 801px,
+);
+
+$labb-gapless-tablet-grid: (
+        columns: 6,
+        gutter: 0px,
+        media: 480px,
+);
+
+$labb-gapless-mobile-grid: (
+        columns: 2,
+        gutter: 0px,
+);
+
+$labb-five-col-grid: (
+        columns: 5,
+        gutter: 20px,
+        media: 801px,
+);
+
+$labb-gapless-five-col-grid: (
+        columns: 5,
+        gutter: 0px,
+        media: 801px,
+);
+
+$labb-mobile-only-grid: (
+        media: "(max-width: 479px)",
+);
+
+$labb-tablet-only-grid: (
+        media: "(min-width:480px) and (max-width: 800px)",
+);
